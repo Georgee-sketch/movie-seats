@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: poppins;
+}
+
+
+body{
+    position: relative;
+}
+
+.screen{
+    position: absolute;
+    left: 144px;
+    top: 50px;
+}
+
+.screen-title{
+    width: 91px;
+    height: 14px;
+    position: absolute;
+    left: 252px;
+    top: 70px;
+    
+    p{
+        font-size: 10px;
+    }
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+    position: relative;
+    font-weight: 600;
+
+    .top{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    
+
+    .row-a{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 83px;
+       color: white;
+       
+
+       .a{
+        color: #2F2F2F;
+        position: absolute;
+        left: 40px;
+       }
+       
+       
+
+       
+
+        .seat-a{
+            width: 179px;
+            height: 31px;
+            display: flex;
+            justify-content: space-between;
+
+           
+            .seats-a{
+                width: 31px;
+                height: 31px;
+                background-color: #F4F3F3;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                h1{
+                    font-size: 18px;
+                    color: #F4F3F3;
+                    
+                }
+
+                &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+
+                
+            }
+
+            .seats-a-teal{
+                width: 31px;
+                height: 31px;
+                background-color: #DAE6FF;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                h1{
+                    font-size: 18px;
+                    color: #DAE6FF;
+                }
+
+                &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+
+                
+            }
+
+            .seats-a-pink{
+                width: 31px;
+                height: 31px;
+                background-color: #FFD6E4;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                h1{
+                    font-size: 18px;
+                    color: #FFD6E4;
+                }
+
+                &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+
+                
+            }
+
+        }
+   }
+ }
+   .row-b{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 83px;
+       color: white;
+
+       .b{
+        color: #2F2F2F;
+        position: absolute;
+        left: 40px;
+       }
+
+
+       .seat-b{
+            width: 253px;
+            height: 31px;
+            display: flex;
+            justify-content: space-between;
+
+            .seats-b{
+                width: 31px;
+                height: 31px;
+                background-color: #F4F3F3;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                
+
+                h1{
+                    font-size: 18px;
+                    color: #F4F3F3;
+                }
+
+                 &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+            }
+
+            .seats-b-pink{
+                width: 31px;
+                height: 31px;
+                background-color: #FFD6E4;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                h1{
+                    font-size: 18px;
+                    color: #FFD6E4;
+                }
+
+                &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+
+                
+            }
+
+            
+
+            
+
+
+
+       }
+
+
+
+   }
+
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+   .row-c{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 83px;
+
+       .seat-c{
+            width: 327px;
+            height: 31px;
+            display: flex;
+            justify-content: space-between;
+
+            .seats-c{
+                width: 31px;
+                height: 31px;
+                background-color: #F4F3F3;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h1{
+                    font-size: 18px;
+                    color: #F4F3F3;
+                }
+
+                 &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+            }
+
+            .seats-c-pink{
+                width: 31px;
+                height: 31px;
+                background-color: #FFD6E4;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                h1{
+                    font-size: 18px;
+                    color: #FFD6E4;
+                }
+
+                &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+
+                
+            }
+       }
+   }
+
+   .row-d{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 83px;
+
+       .seat-d{
+            width: 327px;
+            height: 31px;
+            display: flex;
+            justify-content: space-between;
+
+            .seats-d{
+                width: 31px;
+                height: 31px;
+                background-color: #F4F3F3;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h1{
+                    font-size: 18px;
+                    color: #F4F3F3;
+                }
+
+                 &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+            }
+
+            .seats-d-pink{
+                width: 31px;
+                height: 31px;
+                background-color: #FFD6E4;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                h1{
+                    font-size: 18px;
+                    color: #FFD6E4;
+                }
+
+                &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+
+                
+            }
+
+            .seats-d-teal{
+                width: 31px;
+                height: 31px;
+                background-color: #DAE6FF;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                h1{
+                    font-size: 18px;
+                    color: #DAE6FF;
+                }
+
+                &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+
+                
+            }
+       }
+   }
+   .row-e{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 83px;
+
+       .seat-e{
+            width: 327px;
+            height: 31px;
+            display: flex;
+            justify-content: space-between;
+
+            .seats-e{
+                width: 31px;
+                height: 31px;
+                background-color: #F4F3F3;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h1{
+                    font-size: 18px;
+                    color: #F4F3F3;
+                }
+
+                 &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+            }
+
+             .seats-e-teal{
+                width: 31px;
+                height: 31px;
+                background-color: #DAE6FF;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                h1{
+                    font-size: 18px;
+                    color: #DAE6FF;
+                }
+
+                &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+
+                
+            }
+
+            .seats-e-pink{
+                width: 31px;
+                height: 31px;
+                background-color: #FFD6E4;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                h1{
+                    font-size: 18px;
+                    color: #FFD6E4;
+                }
+
+                &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+
+                
+            }
+       }
+   }
+   .row-f{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       gap: 83px;
+
+       .seat-f{
+            width: 327px;
+            height: 31px;
+            display: flex;
+            justify-content: space-between;
+
+            .seats-f{
+                width: 31px;
+                height: 31px;
+                background-color: #F4F3F3;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                h1{
+                    font-size: 18px;
+                    color: #F4F3F3;
+                }
+
+                 &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+
+
+            }
+
+            .seats-f-pink{
+                width: 31px;
+                height: 31px;
+                background-color: #FFD6E4;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                h1{
+                    font-size: 18px;
+                    color: #FFD6E4;
+                }
+
+                &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+
+                
+            }
+            .seats-f-teal{
+                width: 31px;
+                height: 31px;
+                background-color: #DAE6FF;
+                border-radius: 6px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+
+                h1{
+                    font-size: 18px;
+                    color: #DAE6FF;
+                }
+
+                &:hover{
+                    color: white;
+                    background-color: #E50B14;
+                    border: 2px solid #BA1111;
+                }
+
+                
+            }
+            
+
+            
+
+
+       }
+   }
+
+}  
+
+}
